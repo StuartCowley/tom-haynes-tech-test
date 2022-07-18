@@ -1,4 +1,4 @@
-import React, { render } from '@testing-library/react';
+import React, { render, screen} from '@testing-library/react';
 import SearchResults from "../components/SearchResults";
 
 describe("Search", () => {
@@ -11,4 +11,13 @@ describe("Search", () => {
             <SearchResults searchResults={validProps.searchResults} />);
             expect(asFragment()).toMatchSnapshot();
         });
-    });
+
+        it("renders placeholder if no results returned", () => {
+            const validProps = [];
+            render(<SearchResults results={validProps} />);
+      
+            const placeholderMessage = screen.getByText("No results");
+      
+            expect(placeholderMessage).toBeInTheDocument();
+          });
+      });
