@@ -11,6 +11,10 @@ This project uses:
 - Axios for retrieving data from the API
 - PropTypes to validate props
 
+# Screenshot
+
+![My Image](/public/tech-test-screenshot.png)
+
 
 ## Installation
 
