@@ -5,7 +5,7 @@ import "../styles/search-results.css";
 const SearchResults = ({ searchResults }) => {
     console.log(searchResults, "renders search results")
     if (!searchResults.length) {
-        return <p className="no-results">No results</p>
+        return <p className="no-results">Sorry, no results found. Try again. </p>
     } else {
     return (
         <>

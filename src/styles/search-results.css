@@ -1,7 +1,16 @@
 .search-results {
-    margin: auto;
-    width: auto;
+    display: grid;
+    grid-template-columns: 80px, 200px, auto, 40px;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 10px;
+    width: 300px;
     height: auto;
+}
+
+p {
+    font-size: 20px;
+    color: black;
 }
 
 .no-results {
@@ -9,4 +18,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
 }
