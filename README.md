@@ -14,16 +14,16 @@ This project uses:
 
 ## Installation
 
-<ul> Clone this repository
-<ul> cd into the repository
-<ul> Run `npm install` to install dependencies
-<ul> Run `npm start` to start the project in the browser
-<ul> Run `npm test` to run associated tests
+- Clone this repository
+- cd into the repository
+- Run `npm install` to install dependencies
+- Run `npm start` to start the project in the browser
+- Run `npm test` to run associated tests
 
 ## If I had more time..
 
-<ul> add more styling to make search results and UX a bit cleaner
-<ul> Make sure code is DRY
+- add more styling to make search results and UX a bit cleaner
+- Make sure code is DRY
 
 # Author's name
 
