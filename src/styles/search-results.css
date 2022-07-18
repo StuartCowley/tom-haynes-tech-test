@@ -1,0 +1,12 @@
+.search-results {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.no-results {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
