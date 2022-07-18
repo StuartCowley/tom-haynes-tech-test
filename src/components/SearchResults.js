@@ -9,12 +9,14 @@ const SearchResults = ({ searchResults }) => {
     } else {
     return (
         <>
+        <div className="search-results">
             {searchResults.map((image) => {
                 console.log(image, "image")
-            return <img className="search-results"
+            return <img className="search-results__image"
                     src={image}
                     alt="spaceImage" />
             })}
+        </div>
         </>
         );
     }
