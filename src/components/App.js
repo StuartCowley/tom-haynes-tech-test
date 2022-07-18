@@ -4,7 +4,7 @@ import Search from '../components/Search';
 import SearchResults from './SearchResults';
 
 const App = () => {
-  const [searchResults, setSearchResults] = useState();
+  const [searchResults, setSearchResults] = useState([]);
   console.log(searchResults);
 
   return (
@@ -13,7 +13,7 @@ const App = () => {
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" 
       alt="nasaLogo"/>
       <Search setSearchResults={setSearchResults} />
-      <SearchResults />
+      <SearchResults searchResults={searchResults}/>
     </div>
   );
 }
