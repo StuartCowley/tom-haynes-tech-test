@@ -1,0 +1,26 @@
+.search-input {
+    width: 35%;
+    height: 30px;
+    border-radius: 11px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 2px, 10px;
+    text-align: center;
+}
+
+.search-form {
+    text-align: center;
+}
+
+.search-btn {
+    height: 32px;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: crimson;
+    color: white;
+    border-color: crimson;
+    border-radius: 5px;
+    text-shadow: 1ch;
+}
